@@ -2,22 +2,21 @@
 ---
 
 ### What is containers
-* Start with Traditional VMs  
-![](A%20Glance%20At%20Containers/Screen%20Shot%202018-04-29%20at%2019.59.15.png)
-* Container is a log lightweight than VMs with every instance shared actually OS module using namespace  
-![](A%20Glance%20At%20Containers/Screen%20Shot%202018-04-29%20at%2020.01.23.png)
+* Traditional VMs  
+![](assets/vm.png)
+
+---
+
+* Containers are lightweight than VMs with all instances sharing OS module using namespace.
+![](assets/container.png)
 
 --- 
 
 ### Why use containers
-- Consistency
-Across development, testing, and production environments.
-- Loose coupling
-Between application and operating system layers
-- Workload migration
-Simplified between on-premises and cloud environments
-- Agility
-Agile development and operations
+- Consistency across development, testing, and production environments.
+- Loose coupling between application and operating system layers
+- Workload migration simplified between on-premises and cloud environments
+- Agility: agile development and operations
 
 --- 
 
@@ -26,6 +25,10 @@ Agile development and operations
 --- 
 
 #### Start with `docker run` command.
+
+``` shell
+docker run hello-world
+```
 
 --- 
 
