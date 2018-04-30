@@ -24,19 +24,39 @@
 
 --- 
 
-#### Start with `docker run` command.
+#### Start with docker run command.
 
 ``` shell
-docker run hello-world
+docker run hello-world:latest
 ```
 
++++
+
+#### Highlights.
+
+* *docker run* to run a new container
+* *docker ps* to see running and stopped containers
+* *docker images* to see info about images
+
 --- 
+
 
 #### Theory of Pulling and Running containers
 
+![](assets/docker-pulling-running.png)
+
 --- 
 
-#### Working with images
+#### Containers and images
+
+- Images ~ Stopped containers
+
+- Containers ~ Running images
+
++++ 
+
+`docker pull ubuntu:latest`
+![](assets/image-pulling.png)
 
 --- 
 
