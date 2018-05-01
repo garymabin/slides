@@ -62,6 +62,22 @@ docker run hello-world:latest
 
 #### Container Lifecycle
 
+`docker start <container>` 
+
+![](assets/lifecycle.png)
+
+`docker stop <container>` 
+
++++
+
+#### Highlights.
+
+* *docker start `<container>`* to start
+* *docker stop `<container>`* to stop
+* *docker rm `<container>`* to remove the container
+* *docker rmi `<image>`* to remove the image
+
+
 --- 
 
 ### Docker usage in mWeb
