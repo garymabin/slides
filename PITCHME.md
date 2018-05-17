@@ -1,7 +1,7 @@
 # A Glance At Containers
 ---
 
-### What is containers
+### What is container
 * Traditional VMs  
 ![](assets/vm.png)
 
@@ -9,14 +9,6 @@
 
 * Containers are lightweight than VMs with all instances sharing OS module using namespace.
 ![](assets/container.png)
-
---- 
-
-### Why use containers
-- Consistency across development, testing, and production environments.
-- Loose coupling between application and operating system layers
-- Workload migration simplified between on-premises and cloud environments
-- Agility: agile development and operations
 
 --- 
 
@@ -37,6 +29,7 @@ docker run hello-world:latest
 * *docker run* to run a new container
 * *docker ps* to see running and stopped containers
 * *docker images* to see info about images
+* *docker logs* to check the log of images
 
 --- 
 
@@ -77,6 +70,19 @@ docker run hello-world:latest
 * *docker rm `<container>`* to remove the container
 * *docker rmi `<image>`* to remove the image
 
+--- 
+
+#### Build a simple container by ourselves
+
+*Dockerfile
+
+---
+
+### Why use containers
+- Consistency across development, testing, and production environments.
+- Loose coupling between application and operating system layers
+- Workload migration simplified between on-premises and cloud environments
+- Agility: agile development and operations
 
 --- 
 
@@ -96,18 +102,3 @@ docker run hello-world:latest
 #### Jenkins instance
 
 --- 
-
-### Container orchestration
-### Kubernetes
-> *Pod*:   
-> A group of containers that are deployed together, with guaranteed network access.  
-> Help developers build modularly  
-* Kubernetes eases application management
-	* Workload portability
-	* Persistent storage
-	* Rolling updates
-* Kubernetes makes applications more elastic
-	* Multi-zone clusters
-	* Load balancing
-	* Autoscaling
-#Cloud #Container #Docker
