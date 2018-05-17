@@ -77,7 +77,8 @@ docker run hello-world:latest
 ```
 #Simple web server
 FROM ubuntu:16.04
-RUN apt-get update && apt-get install -y apache2 && rm -rf /var/cache/apt-get/*
+RUN apt-get update && apt-get install -y \
+    apache2 && rm -rf /var/cache/apt-get/*
 EXPOSE 80
 CMD [ "apache2ctl", "-D", "FOREGROUND"]
 ```
