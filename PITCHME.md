@@ -24,19 +24,18 @@ docker run hello-world:latest
 
 +++
 
+#### Theory of Pulling and Running containers
+
+![](assets/docker-pulling-running.png)
+
+--- 
+
 #### Highlights.
 
 * *docker run* to run a new container
 * *docker ps* to see running and stopped containers
 * *docker images* to see info about images
 * *docker logs* to check the log of images
-
---- 
-
-
-#### Theory of Pulling and Running containers
-
-![](assets/docker-pulling-running.png)
 
 --- 
 
@@ -74,7 +73,14 @@ docker run hello-world:latest
 
 #### Build a simple container by ourselves
 
-*Dockerfile
+> Dockerfile
+```
+#Simple web server
+FROM ubuntu:16.04
+RUN apt-get update && apt-get install -y apache2 && rm -rf /var/cache/apt-get/*
+EXPOSE 80
+CMD [ "apache2ctl", "-D", "FOREGROUND"]
+```
 
 ---
 
@@ -90,15 +96,15 @@ docker run hello-world:latest
 
 --- 
 
-#### Development CHAPI servers on MacOS
-* Understand docker volumes.
-
---- 
-
 #### Sonar cube
 
 --- 
 
 #### Jenkins instance
+
+--- 
+
+#### Development CHAPI servers on MacOS
+* Understand docker volumes.
 
 --- 
