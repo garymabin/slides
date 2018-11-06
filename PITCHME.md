@@ -1,10 +1,12 @@
 ## Tech Overview
 ---
 ### Base Framework
+@ol
 - *React.js*.
 - *ES6+* with *Babel*. 
 - *react-router* for routing.
 - *JQuery.ajax* as http client.
+@olend
 ---
 ### Data Framework
 @snap[mid-point]
@@ -36,13 +38,17 @@
 ![](assets/SonarQube.png)
 ---
 ### Development Patterns
+@ol
 - Testing pattern.
 - Form pattern.
 - HoC pattern.
 - Interceptors pattern.
+@olend
 ---
 ### Build & Infrastructure
+@ol
 - *Webpack.js* for building.
 - *dyson* as json based mock server.
 - *jenkins* with pipeline plugin.
 - *Pipeline as code*.
+@olend
