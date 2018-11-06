@@ -17,16 +17,20 @@
 ### Work Flow
 +++
 #### Testing
+@ol
 - *Mocha*/*Chai*/*Enzyme* for **React unit testing**.
 - *Backstop.js*/*Storybook.js* for **UI testing**.
 - *Nightwatch.js* for **e2e testing**.
+@olend
 +++
 #### Code Check
-- *eslint* for Javascript check.
+@ol
+- *eslint* for JavaScript check.
 - *sass-lint* for CSS check.
 - *Flow* for static type checking.
 - *Sonarqube* for static code scan and code quality trends tracking.
 - *veracode* for security code scan.
+@olend
 ---
 ### Development Patterns
 - Testing pattern.
