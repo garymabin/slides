@@ -1,0 +1,32 @@
+a.nav-home {
+    color: #44B74A;
+    box-sizing: border-box;
+    border: none;
+    font-size: 48px;
+    line-height: 50px;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+a.nav-home:hover, a.nav-home > img:hover {
+    color: #44B74A;
+}
+
+a.nav-home img {
+    color: #44B74A;
+    box-sizing: border-box;
+    border: none;
+    font-size: 24px;
+    line-height: 50px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background: none;
+
+    vertical-align: -17px;
+    margin-right: 4px;
+    width: 100px;
+    height: 70px;
+}

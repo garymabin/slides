@@ -1,2 +1,3 @@
 theme: night
 footnote: "© 2018 ThoughtWorks Inc."
+theme-override: assets/css/PITCHME.css
