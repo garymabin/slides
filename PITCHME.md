@@ -31,6 +31,9 @@
 - *Sonarqube* for static code scan and code quality trends tracking.
 - *veracode* for security code scan.
 @olend
++++
+#### Sonarqube Results
+![](assets/SonarQube.png)
 ---
 ### Development Patterns
 - Testing pattern.
