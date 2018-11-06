@@ -10,7 +10,7 @@
 * Flux: Reflux & Redux.
 ---
 ### Work flow
----
++++
 #### Testing
 * *Mocha*/*Chai*/*Enzyme* for React unit testing.
 * *Backstop.js*/*Storybook.js* for UI testing.
