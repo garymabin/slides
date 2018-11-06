@@ -17,9 +17,9 @@
 ### Work Flow
 +++
 #### Testing
-- *Mocha*/*Chai*/*Enzyme* for React unit testing.
-- *Backstop.js*/*Storybook.js* for UI testing.
-- *Nightwatch.js* for e2e testing.
+- *Mocha*/*Chai*/*Enzyme* for **React unit testing**.
+- *Backstop.js*/*Storybook.js* for **UI testing**.
+- *Nightwatch.js* for **e2e testing**.
 +++
 #### Code Check
 - *eslint* for Javascript check.
