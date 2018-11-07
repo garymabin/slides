@@ -1,12 +1,12 @@
 ## Tech Overview
 ---
 ### Base Framework
-@ol
+@ul
 - *React.js*.
 - *ES6+* with *Babel*. 
 - *react-router* for routing.
 - *JQuery.ajax* as http client.
-@olend
+@ulend
 ---
 ### Data Framework
 @snap[mid-point]
@@ -19,36 +19,36 @@
 ### Work Flow
 +++
 #### Testing
-@ol
+@ul
 - *Mocha*/*Chai*/*Enzyme* for **React unit testing**.
 - *Backstop.js*/*Storybook.js* for **UI testing**.
 - *Nightwatch.js* for **e2e testing**.
-@olend
+@ulend
 +++
 #### Code Check
-@ol
+@ul
 - *eslint* for JavaScript check.
 - *sass-lint* for CSS check.
 - *Flow* for static type checking.
 - *Sonarqube* for static code scan and code quality trends tracking.
 - *veracode* for security code scan.
-@olend
+@ulend
 +++
 #### Sonarqube Results
 ![](assets/SonarQube.png)
 ---
 ### Development Patterns
-@ol
+@ul
 - Testing pattern.
 - Form pattern.
 - HoC pattern.
 - Interceptors pattern.
-@olend
+@ulend
 ---
 ### Build & Infrastructure
-@ol
+@ul
 - *Webpack.js* for building.
 - *dyson* as json based mock server.
 - *jenkins* with pipeline plugin.
 - *Pipeline as code*.
-@olend
+@ulend
