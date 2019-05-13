@@ -1,2 +1,4 @@
 theme: night
 theme-override: assets/css/PITCHME.css
+footnote : "© 2019 ThoughtWorks Ltd."
+

@@ -116,7 +116,7 @@ Recommanded way:
 ### Associations
 #### Best way to implement @OneToMany and @ManyToMany
 @snap[fragment]
-![](./assets/sample-associations.jpg)
+![](./assets/sample-associations.png)
 @snapend
 +++
 #### Always start with @Lazy load.
@@ -141,12 +141,10 @@ Recommanded way:
 +++
 #### Use flyway to migrate 
 @ul
-- Use a flexible, unique, valid prefix for migration scripts.
-`V2019_0101_1826`
-- Use `setOutOfOrder` wisely.
-- Use java migrations carefully.
+- Use a flexible, unique, valid prefix for migration scripts. like: `V2019_0101_1826`
+- Use `setOutOfOrder()` wisely.
 - Split database schema change and value change.
-- Use JDBC migration handle complex cases.
+- Use JDBC migration to handle complex cases.
 @ulend
 +++
 #### Design explicit API to migrate.
@@ -168,4 +166,7 @@ Recommanded way:
 * @EnableJpaAuditing
 * @CreatedDate and @ModifiedDate
 * Customized Auditing rules.
+---
+### Thanks！
+binma@thoughtworks.com、
 ---
