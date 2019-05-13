@@ -25,8 +25,8 @@ Cons:
 - Only supports no more than two parameters.
 @ulend
 +++
-```java
 #### @Query(JPQL/HQL)
+```java
 @Repository
 public interface AircraftRepository extends JpaRepository<AircraftRecord, Long> {
 
