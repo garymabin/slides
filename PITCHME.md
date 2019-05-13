@@ -1,7 +1,6 @@
 ## Efficient Spring Data JPA
 ---
 ### Query
-Query is always the headache
 +++
 **Derived JPA query**
 ```java
@@ -114,6 +113,7 @@ Recommanded way:
 @ulend
 ---
 ### Associations
++++
 #### Best way to implement @OneToMany and @ManyToMany
 @snap[fragment]
 ![](./assets/sample-associations.png)
@@ -138,8 +138,9 @@ Recommanded way:
 @JoinFormula annotation allows us to define any SQL select query to provide the relationship between two entities.
 ---
 ### Migrations
+Backup! Backup! Backup!
 +++
-#### Use flyway to migrate 
+#### Use flyway to migrate
 @ul
 - Use a flexible, unique, valid prefix for migration scripts. like: `V2019_0101_1826`
 - Use `setOutOfOrder()` wisely.
@@ -168,5 +169,5 @@ Recommanded way:
 * Customized Auditing rules.
 ---
 ### Thanks！
-binma@thoughtworks.com、
+binma@thoughtworks.com
 ---
